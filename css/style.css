@@ -28,7 +28,8 @@ text-shadow: 3px 3px 5px black;
     color: aliceblue;
     padding: 10px;
 border-radius: 10%;
-transition: 0.3s;}
+transition: 0.4s;
+text-decoration: none;}
 .card{    display: flex;
     width: 500px;
     height: 100px;
