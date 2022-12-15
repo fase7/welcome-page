@@ -1,0 +1,54 @@
+body{background-image:url(../cl.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size:cover;
+font-family: 'Kanit', sans-serif;
+font-family: 'Martian Mono', monospace;}
+.container {border-left: 3px solid #37c3e2;}
+.we {color: aliceblue;
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: 40px;
+text-shadow: black 9px 4px 15px;
+}
+.log p {color: aliceblue;
+font-size: 23px;
+position: absolute;
+left: 200px;
+top: 305px;
+text-shadow: 3px 3px 5px black;
+}
+.card a {background-color:rgb(112,65,149);
+    width: 200px;height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: aliceblue;
+    padding: 10px;
+border-radius: 10%;
+transition: 0.3s;}
+.card{    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-between;
+    position: absolute;
+    right: 55%;
+    bottom: 25%;
+}
+.card .doctor i {    position: absolute;
+    right: 71%;
+    top: 56%;
+    font-size: 78px;
+    color: aliceblue;
+}
+
+.card .patient i {    position: absolute;
+    right: 12%;
+    top: 56%;
+    font-size: 78px;
+    color: aliceblue;
+}
+.card a:hover{background-color:#e84189 ;
+    box-shadow: 4px 3px 22px #e84189;}
