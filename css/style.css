@@ -10,7 +10,7 @@ font-family: 'Martian Mono', monospace;
 padding: 0px;
 margin: 0px;}
 .container{width:700px;margin-left: auto;margin-right: auto;}
-.we{width:600px;
+.we{width:500px;
     font-size: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ margin: 0px;}
     text-shadow: black 9px 4px 15px;
 text-transform: uppercase;}
 .log {width:700px;margin-left: auto;margin-right: auto;}  
-.log p {width:600px;
+.log p {width:500px;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
