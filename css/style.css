@@ -4,162 +4,44 @@ background-position: center;
 background-attachment: fixed;
 background-size:cover;
 font-family: 'Kanit', sans-serif;
-font-family: 'Martian Mono', monospace;}
-.container {border-left: 3px solid #37c3e2;}
-.we {color: aliceblue;
-font-size: 100px;
-position: absolute;
-left: 200px;
-top: 40px;
-text-shadow: black 9px 4px 15px;
-}
-.log p {color: aliceblue;
-font-size: 23px;
-position: absolute;
-left: 200px;
-top: 305px;
-text-shadow: 3px 3px 5px black;
-}
-.card a {background-color:rgb(112,65,149);
-    width: 200px;height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+font-family: 'Martian Mono', monospace;
+padding: 0px;
+margin: 0px;}
+.container{width:700px;margin-left: auto;margin-right: auto;}
+.we{width:600px;
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
     color: aliceblue;
-    padding: 10px;
-border-radius: 10%;
-transition: 0.4s;
-text-decoration: none;}
-.card{    display: flex;
-    width: 500px;
-    height: 100px;
-    justify-content: space-between;
-    position: absolute;
-    right: 55%;
-    bottom: 25%;
-}
-.card .doctor i {    position: absolute;
-    right: 71%;
-    top: 56%;
-    font-size: 78px;
+    text-shadow: black 9px 4px 15px;
+text-transform: uppercase;}
+.log {width:700px;margin-left: auto;margin-right: auto;}  
+.log p {width:600px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
     color: aliceblue;
-}
-
-.card .patient i {    position: absolute;
-    right: 12%;
-    top: 56%;
-    font-size: 78px;
-    color: aliceblue;
-}
+    text-shadow: black 9px 4px 15px;
+text-transform: capitalize;}      
+    .card{width: 700px;margin-left: auto;
+    margin-right: auto;display: flex;
+justify-content: space-between;}
+.card a {color: aliceblue;width: 150px;
+height: 150px;background-color: rgb(112,65,149);margin-left: auto;margin-right: auto;display: flex;justify-content: space-evenly;
+flex-direction: column;align-items:center ;
+text-decoration: none;
+border-radius: 10px;transition: 0.4s;}
+.card a i {font-size: 50px;}
 .card a:hover{background-color:#e84189 ;
     box-shadow: 4px 3px 22px #e84189;}
 
+    @media (max-width: 767px) {
+        .card{display: block;}
+        .card a {width: 250px;height: 250px;margin-top: 20px;border-radius: 20px;}
+        body{font-size:200% ;}
 
 
 
 
-/* Mobile */
 
-@media (max-width: 400px) {
-    .we{    font-size: 300%;
-        position: absolute;
-        left: 19%;
-        top: 3%;
     }
-    .log p {    font-size: 100%;
-        position: absolute;
-        left: 68px;
-        top: 303px;}
-        .card{
-            width: 273px;
-            height: 100px;
-            position: absolute;
-            right: 15%;
-            bottom: 25%;}
-        .card a {    width: 100px;
-            height: 100px;
-        }
-        .card .doctor i {right: 68%;
-            top: 21%;
-        font-size: 60px;}    
-        .card .patient i {    right: 8%;
-            top: 23%;
-            font-size: 60px;}
-    }
-
-  
-
-@media (min-width: 400px)and (max-width:767px) {
-    .we{    font-size: 400%;
-    position: absolute;
-    left: 26%;
-    top: 3%;
-   }
-   .log p {
-    font-size: 23px;
-    position: absolute;
-    left: 165px;
-    top: 305px;
-   }
-   .card{
-    width: 273px;
-    height: 100px;
-    position: absolute;
-    right: 17%;
-    bottom: 20%;
-}
-.card a {    width: 100px;
-    height: 100px;
-}
-.card .doctor i {right: 68%;
-    top: 21%;
-font-size: 60px;}    
-.card .patient i {    right: 8%;
-    top: 23%;
-    font-size: 60px;}
-}
-    
-
-
-/* Small Screens */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .we{    font-size: 400%;
-        position: absolute;
-        left: 26%;
-        top: 3%;
-    }
-    .card{
-        width: 273px;
-        height: 100px;
-        position: absolute;
-        right: 33%;
-        bottom: 20%;}
-    .card a {    width: 100px;
-        height: 100px;
-    }
-    .card .doctor i {right: 68%;
-        top: 21%;
-    font-size: 60px;}    
-    .card .patient i {    right: 8%;
-        top: 23%;
-        font-size: 60px;}
-    
-}
-
-/* Medium Screens */
-
-@media (min-width: 992px) {
-    
-    
-}
-
-/* Large Screens */
-
-@media (min-width: 1200px) {
-}
-
-/* Custom */
-
-@media (max-width: 1199px) {
-}
