@@ -2,33 +2,31 @@ body{background-image:url(../cl.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
-background-size:100% 100%;
-Width:100%;
-Height:100%;
+background-size:cover;
 font-family: 'Kanit', sans-serif;
 font-family: 'Martian Mono', monospace;
 padding: 0px;
 margin: 0px;}
-.container{width:700px;margin-left: auto;margin-right: auto;}
-.we{width:500px;
+.container{width:100%;margin-left: auto;margin-right: auto;}
+.we{width:80%;
     font-size: 100px;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     text-shadow: black 9px 4px 15px;
 text-transform: uppercase;}
-.log {width:700px;margin-left: auto;margin-right: auto;}  
-.log p {width:500px;
+.log {width:100%;margin-left: auto;margin-right: auto;}  
+.log p {width:80%;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     text-shadow: black 9px 4px 15px;
 text-transform: capitalize;}      
-    .card{width: 700px;margin-left: auto;
+    .card{width: 100%;margin-left: auto;
     margin-right: auto;display: flex;
 justify-content: space-between;}
-.card a {color: aliceblue;width: 150px;
+.card a {color: aliceblue;width: 30%;
 height: 150px;background-color: rgb(112,65,149);margin-left: auto;margin-right: auto;display: flex;justify-content: space-evenly;
 flex-direction: column;align-items:center ;
 text-decoration: none;
@@ -38,10 +36,10 @@ border-radius: 10px;transition: 0.4s;}
     box-shadow: 4px 3px 22px #e84189;}
 
     @media (max-width: 767px) {
-        .card{display: block;width:100%}
+        .we{font-size: 68px;}
+        .card{display: block;}
         .card a {width: 250px;height: 250px;margin-top: 20px;border-radius: 20px;}
         body{font-size:200% ;}
-        .we p{width:100%}
 
 
 
