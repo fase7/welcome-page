@@ -53,3 +53,113 @@ text-decoration: none;}
 }
 .card a:hover{background-color:#e84189 ;
     box-shadow: 4px 3px 22px #e84189;}
+
+
+
+
+
+/* Mobile */
+
+@media (max-width: 400px) {
+    .we{    font-size: 300%;
+        position: absolute;
+        left: 19%;
+        top: 3%;
+    }
+    .log p {    font-size: 100%;
+        position: absolute;
+        left: 68px;
+        top: 303px;}
+        .card{
+            width: 273px;
+            height: 100px;
+            position: absolute;
+            right: 15%;
+            bottom: 25%;}
+        .card a {    width: 100px;
+            height: 100px;
+        }
+        .card .doctor i {right: 68%;
+            top: 21%;
+        font-size: 60px;}    
+        .card .patient i {    right: 8%;
+            top: 23%;
+            font-size: 60px;}
+    }
+
+  
+
+@media (min-width: 400px)and (max-width:767px) {
+    .we{    font-size: 400%;
+    position: absolute;
+    left: 26%;
+    top: 3%;
+   }
+   .log p {
+    font-size: 23px;
+    position: absolute;
+    left: 165px;
+    top: 305px;
+   }
+   .card{
+    width: 273px;
+    height: 100px;
+    position: absolute;
+    right: 17%;
+    bottom: 20%;
+}
+.card a {    width: 100px;
+    height: 100px;
+}
+.card .doctor i {right: 68%;
+    top: 21%;
+font-size: 60px;}    
+.card .patient i {    right: 8%;
+    top: 23%;
+    font-size: 60px;}
+}
+    
+
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .we{    font-size: 400%;
+        position: absolute;
+        left: 26%;
+        top: 3%;
+    }
+    .card{
+        width: 273px;
+        height: 100px;
+        position: absolute;
+        right: 33%;
+        bottom: 20%;}
+    .card a {    width: 100px;
+        height: 100px;
+    }
+    .card .doctor i {right: 68%;
+        top: 21%;
+    font-size: 60px;}    
+    .card .patient i {    right: 8%;
+        top: 23%;
+        font-size: 60px;}
+    
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    
+    
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
+}
