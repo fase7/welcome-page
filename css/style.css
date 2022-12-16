@@ -7,16 +7,16 @@ font-family: 'Kanit', sans-serif;
 font-family: 'Martian Mono', monospace;
 padding: 0px;
 margin: 0px;}
-.container{width:100%;margin-left: auto;margin-right: auto;}
-.we{width:80%;
+.container{width:80%;margin-left: auto;margin-right: auto;}
+.we{width:100%;
     font-size: 100px;
     margin-left: auto;
     margin-right: auto;
     color: aliceblue;
     text-shadow: black 9px 4px 15px;
 text-transform: uppercase;}
-.log {width:100%;margin-left: auto;margin-right: auto;}  
-.log p {width:80%;
+.log {width:80%;margin-left: auto;margin-right: auto;}  
+.log p {width:100%;
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
