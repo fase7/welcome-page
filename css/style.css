@@ -36,7 +36,7 @@ border-radius: 10px;transition: 0.4s;}
     box-shadow: 4px 3px 22px #e84189;}
 
     @media (max-width: 767px) {
-        .we{font-size: 68px;}
+        .we{font-size: 60px;}
         .card{display: block;}
         .card a {width: 250px;height: 250px;margin-top: 20px;border-radius: 20px;}
         body{font-size:200% ;}
